@@ -6,7 +6,7 @@
 /*   By: gjacinta <gjacinta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 13:24:40 by gjacinta          #+#    #+#             */
-/*   Updated: 2022/02/05 17:04:56 by gjacinta         ###   ########.fr       */
+/*   Updated: 2022/02/07 14:05:17 by gjacinta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,5 @@ void	string_transmit(unsigned char c, int pid);
 size_t	ft_strlen(const char *str);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	string_transmit2(int i, int pid, int array[]);
-
 
 #endif
